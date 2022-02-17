@@ -1,0 +1,40 @@
+.main-container{
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 250px;
+    max-width: 600px;
+    overflow-y: scroll;
+}
+
+.image-patch{
+    width: 50px;
+    height: 50px;
+}
+
+img{
+    width: 50px;
+}
+
+.center td 
+{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+td 
+{
+    height: 50px; 
+    width: 100px;
+}
+
+.header-text{
+    font-size: 2em;
+    font-weight: 600;
+}

@@ -1,0 +1,120 @@
+body{
+    color: white;
+    background-image: url("../assets/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-container{
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content{
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 230px;
+    max-width: 600px;
+    overflow-y: scroll;
+}
+
+.image-patch{
+    width: 50px;
+    height: 50px;
+}
+
+img{
+    width: 50px;
+}
+
+.center td 
+{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+table{
+    background-color: #353939;
+    color: white;
+}
+
+th{
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+
+td 
+{
+    background-color: #353939;
+    height: 50px; 
+    width: 100px;
+    font-size: 0.8em;
+    color: white;
+    border-left: 1px solid #7A7A7A;
+}
+
+.header-text{
+    font-size: 2em;
+    font-weight: 600;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .filterContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1.5em;
+      font-weight: 500;
+  }
+
+.filterButton{
+    width: 120px;
+    margin: 5px;
+    font-size: 0.6em;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+.filterButton:hover{
+    cursor:pointer;
+    background-color: white;
+    color:#353939;
+    border: 1px solid #353939;
+}
+
+.dateInput{
+    border-radius: 5px;
+    border:none;
+}
+
+.missionName:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+.missionName{
+    transition: all ease-in-out 0.3s;
+}
